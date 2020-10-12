@@ -1,0 +1,116 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css");
+
+
+@font-face {
+font-family: vazir;
+src: url('fonts/vazir.eot');
+src: url('fonts/vazir.eot?#iefix') format('embedded-opentype'),
+url('fonts/vazir.woff') format('woff'),
+url('fonts/vazir.woff2') format('woff2'),
+url('fonts/vazir.ttf') format('truetype');
+font-weight: normal}
+@font-face{font-family:'ISDNFa';src:url(font/ISDNFa.eot);src:url('font/ISDNFad41d.eot?#iefix') format('embedded-opentype'),url(font/ISDNFa.woff) format('woff'),url(font/ISDNFa.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:'ISMed';src:url(font/ISMed-Medium.eot);src:url('font/ISMed-Mediumd41d.eot?#iefix') format('embedded-opentype'),url(font/ISMed-Medium.woff) format('woff'),url(font/ISMed-Medium.ttf) format('truetype');font-weight:500;font-style:normal}@font-face{font-family:'ISBl';src:url(font/ISBl-Black.eot);src:url('font/ISBl-Blackd41d.eot?#iefix') format('embedded-opentype'),url(font/ISBl-Black.woff) format('woff'),url(font/ISBl-Black.ttf) format('truetype');font-weight:900;font-style:normal}@font-face{font-family:'ISULi';src:url(font/ISULi-UltraLight.eot);src:url('font/ISULi-UltraLightd41d.eot?#iefix') format('embedded-opentype'),url(font/ISULi-UltraLight.woff) format('woff'),url(font/ISULi-UltraLight.ttf) format('truetype');font-weight:200;font-style:normal}@font-face{font-family:'IS';src:url(font/IS.eot);src:url('font/ISd41d.eot?#iefix') format('embedded-opentype'),url(font/IS.woff) format('woff'),url(font/IS.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:'ISBo';src:url(font/ISBo-Bold.eot);src:url('font/ISBo-Boldd41d.eot?#iefix') format('embedded-opentype'),url(font/ISBo-Bold.woff) format('woff'),url(fonts/ISBo-Bold.ttf) format('truetype');font-weight:700;font-style:normal}@font-face{font-family:'Av-theme';src:url(fonts/Avtheme.eot);src:url('fonts/Avthemed41d.eot?#iefix') format('embedded-opentype'),url(fonts/Avtheme.woff) format('woff'),url(fonts/Avtheme.ttf) format('truetype');font-weight:400;font-style:normal}
+
+
+*{user-select:none;}
+::selection {display: none}
+input, button, div{outline:0}
+input [type=tel], input [type=text]{text-align:left!important}
+:-moz-placeholder {color: #ffffff;text-align:right}
+::-webkit-input-placeholder {color: #ffffff;text-align:right}
+:-ms-input-placeholder {color: #ffffff;text-align:right}
+a{text-decoration:none;color:#ffffff}
+p{text-align:center;margin-bottom:3%}
+
+body {
+font-family: ISDNFa;
+direction: rtl;
+background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)),url(../img/kiler.jpg)center center fixed;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+border: 1px dashed rgba(255, 255, 255, 0.80);
+height: 97vh}
+
+.box {
+width: 50%;
+height: auto;
+padding: 10px 10px 10px 10px;
+position: relative;
+display: block;
+margin-top: 3%;
+margin-right: auto;
+margin-left: auto;
+padding-top: 3%;
+padding-bottom: 3%;
+background-color: #676785;
+border-radius: 5px;
+text-align: right;
+line-height: 40px;
+font-size:18px}
+
+.btn {
+font-family: ISDNFa;
+font-size: 16px;
+height: 50px;
+position: relative;
+display: block;
+border: none;
+border-radius:7px;
+margin-right: auto;
+margin-left: auto;
+cursor: pointer
+}
+
+
+
+.start {
+background-color: rgba(255, 255, 255, 0.70);
+color: #000000;
+border: none;
+width: 30%}
+
+.inputs{
+width:40%;
+height:30px;
+font-family: ISDNFa;
+font-size:16px;
+background:none;
+color:#ffffff;
+border:none;
+border-bottom:1px solid #ffffff;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:3%;
+display:block;
+position:relative;
+direction:ltr}
+
+select {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+outline: none;
+direction:rtl!important}
+
+select option{background-color:rgba(0, 0, 0, 0.48)}
+
+footer {
+font-family: ISDNFa;
+width: 100%;
+height: auto;
+bottom: 0px;
+z-index: 100;
+position: fixed;
+background: none;
+color: #ffffff;
+text-align: center;
+font-size: 16px;
+padding-top: 10px;
+padding-bottom: 14px}
+
+@media only screen and (max-width: 570px) {
+.box, .boxtable {width: 85%;}
+.inputs{width:75%;margin-bottom:10%}
+}
